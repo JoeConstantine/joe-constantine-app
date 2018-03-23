@@ -1,0 +1,12 @@
+// AppDelegate.m
+
+#import <StartApp/StartApp.h>
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // initialize the SDK with your appID
+    STAStartAppSDK* sdk = [STAStartAppSDK sharedInstance];
+    sdk.appID = @"202834945";
+
+    return YES;
+}
